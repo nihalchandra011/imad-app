@@ -25,12 +25,12 @@ var articleOne = {
         
 };
 function createTemplate (data) {
-    var title=data.title;
-    var date=data.date;
-    var heading=data.heading;
-    var content=data.content;
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
     
-    var htmlTemplate = `
+    var htmlTemplate =`
     <html>
         <head>
             <title>
@@ -49,13 +49,21 @@ function createTemplate (data) {
                 </div>
                 <hr/>
                 <h3>
-                    $[heading]
+                    Article One | Nihal Chandra
                 </h3>
                 <div>
-                    $[date]
+                    Aug 22,2017
                 </div>
-                <div>
-                $[content]
+                <div>         
+                <p>
+                    This is the content for my first article. This is the content for my first article. This is the content for my first article.
+                </p>
+                <p>
+                    This is the content for my first article. This is the content for my first article. This is the content for my first article.
+                    </p>
+                <p>
+                    This is the content for my first article. This is the content for my first article. This is the content for my first article.
+                </p>
                 </div>
             </div>
         </body>
