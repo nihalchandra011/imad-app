@@ -34,7 +34,7 @@ function createTemplate (data) {
     <html>
         <head>
             <title>
-                $[title]
+                Article One | Nihal Chandra
             </title>
             <meta name="viewport" content="width-device-width, initial-scale-1"/>
              <link href="/ui/style.css" rel="stylesheet" />
@@ -49,7 +49,7 @@ function createTemplate (data) {
                 </div>
                 <hr/>
                 <h3>
-                    Article One | Nihal Chandra
+                    Article One
                 </h3>
                 <div>
                     Aug 22,2017
