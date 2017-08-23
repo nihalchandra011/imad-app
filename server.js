@@ -5,24 +5,6 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne = {
-    title: 'Article One | Nihal Chandra',
-    heading: 'Article One',
-    date: 'Aug 23, 2017',
-    content:    `
-            <p>
-                This is the content for my first article. This is the content for my first article. This is the content for my first article.
-                This is the content for my first article. This is the content for my first article. This is the content for my first article.
-            </p>
-            <p>
-                This is the content for my first article. This is the content for my first article. This is the content for my first article.
-                This is the content for my first article. This is the content for my first article. This is the content for my first article.
-            </p>
-            <p>
-                This is the content for my first article. This is the content for my first article. This is the content for my first article.
-                This is the content for my first article. This is the content for my first article. This is the content for my first article.
-            </p>`
-};
 var articles= {
     "article-one":  {    
         title: "Article One | Nihal Chandra",
